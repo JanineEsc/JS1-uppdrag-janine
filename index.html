@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form class ="box"> 
+            <h1> TODO LIST <img src="https://cdn-icons-png.flaticon.com/128/3790/3790171.png"></h1>
+            <div class="row">
+                <input type="text" id="todo-input" placeholder="Write your task"> 
+                <button id="button" type="button" onclick = "addTodo()" >ADD</button>   
+            </div>
+            <div id="error-container">
+                <span id="error" class="error"></span>
+            </div>
+            <ul id="todo-list"></ul>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html> 
